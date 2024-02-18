@@ -40,4 +40,76 @@ public class Course {
 	@ManyToMany(mappedBy = "favourites", fetch = FetchType.LAZY)
 	private Set<User> favUsers = new HashSet<>();
 
+	//	public Course(long courseId, String courseName, String description, CourseCategory category,
+	//			Set<Enrollements> enrolled, User author, Set<User> favUsers) {
+	//		super();
+	//		this.courseId = courseId;
+	//		this.courseName = courseName;
+	//		this.description = description;
+	//		this.category = category;
+	//		this.enrolled = enrolled;
+	//		this.author = author;
+	//		this.favUsers = favUsers;
+	//	}
+	//
+	//	public Course() {
+	//		super();
+	//	}
+	//
+	//	public long getCourseId() {
+	//		return courseId;
+	//	}
+	//
+	//	public void setCourseId(long courseId) {
+	//		this.courseId = courseId;
+	//	}
+	//
+	//	public String getCourseName() {
+	//		return courseName;
+	//	}
+	//
+	//	public void setCourseName(String courseName) {
+	//		this.courseName = courseName;
+	//	}
+	//
+	//	public String getDescription() {
+	//		return description;
+	//	}
+	//
+	//	public void setDescription(String description) {
+	//		this.description = description;
+	//	}
+	//
+	//	public CourseCategory getCategory() {
+	//		return category;
+	//	}
+	//
+	//	public void setCategory(CourseCategory category) {
+	//		this.category = category;
+	//	}
+	//
+	//	public Set<Enrollements> getEnrolled() {
+	//		return enrolled;
+	//	}
+	//
+	//	public void setEnrolled(Set<Enrollements> enrolled) {
+	//		this.enrolled = enrolled;
+	//	}
+	//
+	//	public User getAuthor() {
+	//		return author;
+	//	}
+	//
+	//	public void setAuthor(User author) {
+	//		this.author = author;
+	//	}
+	//
+	//	public Set<User> getFavUsers() {
+	//		return favUsers;
+	//	}
+	//
+	//	public void setFavUsers(Set<User> favUsers) {
+	//		this.favUsers = favUsers;
+	//	}
+
 }
